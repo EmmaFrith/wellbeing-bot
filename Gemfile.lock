@@ -25,7 +25,10 @@ GEM
       rake (~> 13.0)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
+    nio4r (2.7.4)
     public_suffix (6.0.1)
+    puma (6.4.3)
+      nio4r (~> 2.0)
     rack (3.1.8)
     rack-protection (4.0.0)
       base64 (>= 0.1.0)
@@ -49,6 +52,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   http
+  puma
   sinatra
 
 BUNDLED WITH

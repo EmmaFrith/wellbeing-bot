@@ -4,5 +4,6 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'http'
 gem 'dotenv'
+gem 'puma'
 
 # gem "rails"
